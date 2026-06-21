@@ -1,6 +1,8 @@
 # Company X Storybook
 
-A Storybook-driven UI project for a fictional company called Company X.
+A quick Storybook-driven UI project for a fictional company called Company X. Made with a hanful of prompts using Visual Studio Code and GitHub Copilot using the GPT-5.3-Codex model.
+
+<img src="Storybook_promo_image.png" width="1000"/>
 
 ## Stack
 - React + TypeScript + Vite
@@ -20,6 +22,3 @@ A Storybook-driven UI project for a fictional company called Company X.
    - `npm run storybook`
 3. Optional: run the app shell:
    - `npm run dev`
-
-## Notes
-This project was vibe coded with Visual Studio Code and GitHub Copilot using the GPT-5.3-Codex model.
