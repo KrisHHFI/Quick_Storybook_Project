@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cx-ink: #0b1a2f;
+  --cx-moss: #355f4f;
+  --cx-sand: #f6f2eb;
+  --cx-coral: #eb6e4b;
+  --cx-sky: #8ecae6;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
+  body {
+    @apply m-0 font-sans text-cx-ink;
+    background:
+      radial-gradient(circle at 5% 10%, rgba(142, 202, 230, 0.25), transparent 35%),
+      radial-gradient(circle at 95% 90%, rgba(235, 110, 75, 0.16), transparent 38%),
+      linear-gradient(130deg, #f8f5ef 0%, #f3ece0 100%);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-tight;
+  }
+}
